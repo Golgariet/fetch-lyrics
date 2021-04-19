@@ -4,10 +4,27 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="css/styles.css" />
-    <title>Responsive profile</title>
+    <title>FetchLyrics</title>
   </head>
   <body>
-    <h1>HELLO!</h1>
+    <header>
+      <h1>FetchLyrics</h1>
+
+      <form id="form">
+        <input
+          type="text"
+          id="search"
+          placeholder="Enter artist or songs name:"
+        />
+        <button>Search</button>
+      </form>
+    </header>
+
+    <div id="result" class="container">
+      <p>Results are displayed here:</p>
+    </div>
+
+    <div id="more" class="container centered"></div>
 
     <script src="js/script.js"></script>
   </body>
